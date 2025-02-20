@@ -1,5 +1,6 @@
 {
 	"$schema": "https://biomejs.dev/schemas/1.9.4/schema.json",
+	"extends": ["ultracite"],
 	"vcs": {
 		"enabled": false,
 		"clientKind": "git",
@@ -7,8 +8,7 @@
 	},
 	"files": {
 		"ignoreUnknown": false,
-		"ignore": [],
-		"maxSize": 2000000
+		"ignore": []
 	},
 	"formatter": {
 		"enabled": true,
@@ -20,16 +20,7 @@
 	"linter": {
 		"enabled": true,
 		"rules": {
-			"complexity": {
-				"recommended": true
-			},
-			"style": {
-				"recommended": true
-			},
-			"suspicious": {
-				"noExplicitAny": "off",
-				"recommended": true
-			}
+			"recommended": true
 		}
 	},
 	"javascript": {
