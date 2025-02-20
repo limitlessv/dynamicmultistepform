@@ -6,8 +6,10 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
+    "prebuild": "ultracite lint",
     "lint": "ultracite lint",
-    "format": "ultracite format"
+    "format": "ultracite format",
+    "prune": "ultracite prune"
   },
   "dependencies": {
     "@biomejs/biome": "^1.9.4",
